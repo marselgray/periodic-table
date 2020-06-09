@@ -8,6 +8,11 @@
 	&--box{
 		background-color: red;
 		height: 6rem;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
