@@ -8,16 +8,8 @@
 	&--box{
 		background-color: red;
 		height: 6rem;
-
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-
-		font-size: 1.9rem;
-
-		&__white{
-			background-color: white;
-		}
 	}
 }
+
+
+
