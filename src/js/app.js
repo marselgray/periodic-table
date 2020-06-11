@@ -3,7 +3,7 @@ window.addEventListener("load", function() {
 });
 
 function addNumbers(){
-	var elements = document.getElementsByClassName('element');
+	var elements = document.getElementsByClassName('element--one');
 
 	for (let i = 0; i < elements.length; i++){
 		let num = i + 1;

@@ -1,6 +1,8 @@
 .element{
 
-	font-size: 1.2rem;
+	&--num{
+		font-size: 1.2rem;
+	}
 
 	&--name{
 		font-size: 2.5rem;
