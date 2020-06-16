@@ -9,4 +9,11 @@ function addNumbers(){
 		let num = i + 1;
 		elements[i].innerHTML = num;
 	}
+
+	var elementsTwo = document.getElementsByClassName('element--two');
+
+	for (let i = 0; i < elementsTwo.length; i++){
+		let num = i + 72;
+		elementsTwo[i].innerHTML = num;
+	}
 }
