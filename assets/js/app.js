@@ -16,4 +16,11 @@ function addNumbers(){
 		let num = i + 72;
 		elementsTwo[i].innerHTML = num;
 	}
+
+	var elementsThree = document.getElementsByClassName('element--three');
+
+	for (let i = 0; i < elementsThree.length; i++){
+		let num = i + 104;
+		elementsThree[i].innerHTML = num;
+	}
 }
